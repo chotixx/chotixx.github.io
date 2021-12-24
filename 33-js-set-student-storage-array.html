@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -5,9 +7,11 @@
     <title>33-js-set-student-storage-array.html</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&family=Itim&family=Mitr:wght@200&family=Pattaya&family=Prompt:ital,wght@1,200;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap"
+        rel="stylesheet">
     <style>
         .jumbotron {
             position: relative;
@@ -29,21 +33,23 @@
         }
 
         body {
-            font-family: 'Itim', cursive;
-            background-color: #FCC9B9;
+            font-family: 'Sriracha', cursive;
+            background-color: #fff9c4;
         }
     </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #b0120a;">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FFD75F;">
         <a class="navbar-brand" href="#">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                class="bi bi-emoji-smile-fill" viewBox="0 0 16 16">
+                class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
                 <path
-                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zM4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM10 8c-.552 0-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5S10.552 8 10 8z" />
+                    d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z" />
+                <path
+                    d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z" />
             </svg>
-            NHAMTOEY</a>
+            Nxmfxrn</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,11 +74,11 @@
     <div class="jumbotron jumbotron-fluid"
         style="background-image: url(https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)">
         <video
-            src="https://vod-progressive.akamaized.net/exp=1640332449~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4858%2F7%2F199291564%2F672018282.mp4~hmac=a2fa0945f99681febfdb2097fd0ec2415e605a984281e2638678fe43816d3861/vimeo-prod-skyfire-std-us/01/4858/7/199291564/672018282.mp4?filename=Loop+-+7301.mp4"
+            src="https://vod-progressive.akamaized.net/exp=1640378692~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F1275%2F20%2F506377472%2F2322886264.mp4~hmac=05eabbcba06d4d765529cc9a83e1be962c9e9b1b21427ad0a7ce92643f23143f/vimeo-prod-skyfire-std-us/01/1275/20/506377472/2322886264.mp4?filename=Students+-+63328.mp4"
             autoplay loop muted></video>
 
         <div class="container">
-            <h1 class="display-4" style="color: #000;">Chonlada Phomkerd</h1>
+            <h1 class="display-4" style="color: #000;">Pattharada Chanrueangsri</h1>
             <p class="lead" style="color: #000;">Welcome</p>
         </div>
     </div>
@@ -97,9 +103,9 @@
                             placeholder="">
                         <small id="helpId" class="form-text text-muted"></small>
                     </div>
-                    <input class="btn btn-danger w-25" type="submit" value="Submit" onclick="setdata()">
-                    <input class="btn btn-danger w-25" type="reset" value="Reset" onclick="resetdata()">
-                    <input class="btn btn-outline-warning text-dark w-30" type="button" value="Delete Storage"
+                    <input class="btn btn-warning w-25" type="submit" value="Submit" onclick="setdata()">
+                    <input class="btn btn-warning w-25" type="reset" value="Reset" onclick="resetdata()">
+                    <input class="btn btn-outline-danger text-dark w-30" type="button" value="Delete Storage"
                         onclick="deleteStorage()">
                     </p>
                 </div>
@@ -111,7 +117,7 @@
     <footer class="fixed-bottom">
 
         <p class="text-center my-0 p-2 text-light"></p>
-        <p class="text-md-center my-0 p-2 text-light" style="background-color: #b0120a";>Lorem</p>
+        <p class="text-md-center my-0 p-2 text-dark" style="background-color: #FFD75F" ;>Lorem</p>
 
     </footer>
 
